@@ -1,0 +1,58 @@
+header{
+    background-color: black;
+    color: white;
+}
+.header-left{
+    font-family:cursive;
+}
+.customShape{
+
+    width:100%;
+    height: 60vh;
+    background-image:linear-gradient(rgba(230, 36, 36, 0.3),rgba(182, 206, 212, 0.3)),url('../images/9.jpg');
+    
+    clip-path: polygon(100% 0%,100% 77%,50% 100%,0 75%,0 0);
+    position: relative;
+   
+}
+
+
+
+.card{
+    font-family: cursive;
+    font-size:1.3em;
+}
+
+ .hovereffect:hover{
+
+    transform: translateY(-2px) !important;
+    box-shadow: 10px 5px 5px 0 rgba(148, 17, 17, 0.5) !important;
+}
+.cardImages{
+    height:400px !important;
+}
+.myfooter li{
+    list-style-type: none;
+    color: rgb(252, 245, 245);
+}
+.myfooter a{
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+}
+.myfooter{
+    background-color: black;
+    color: white;
+}
+*{
+    font-family: cursive;
+}
+#catchLine{
+    color:rgb(26, 22, 22);
+    font-weight: bold;
+    font-size: 2.5em;
+    
+
+}
+#headerIcon{
+    color:rgb(5, 161, 161);   
+}
